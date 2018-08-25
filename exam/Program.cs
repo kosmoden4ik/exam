@@ -7,11 +7,6 @@ using System.Threading.Tasks;
 
 namespace exam
 {
-
-
-
-    class Program
-    {
 public class Calculor
         {
             public int x;
@@ -32,9 +27,14 @@ public class Calculor
             }
             public double Delenie()
             {
-                return x / y;
+                return Convert.ToDouble(x / y);
             }
         }
+
+
+    class Program
+    {
+
         static void Main(string[] args)
         {
   
